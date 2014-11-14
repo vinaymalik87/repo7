@@ -5,9 +5,14 @@
     <classes>
       <class name="com.sharepoint.TestNGtest.Annotations">
         <methods>
-          <include name="happen"/>
+          <include name="happen" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.sharepoint.TestNGtest.Annotations -->
+      <class name="com.sharepoint.TestNGtest.Parameter">
+        <methods>
+          <include name="done"/>
+        </methods>
+      </class> <!-- com.sharepoint.TestNGtest.Parameter -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

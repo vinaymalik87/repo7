@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
     <classes>
       <class name="com.sharepoint.TestNGtest.Annotations">
         <methods>
           <include name="happen" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.sharepoint.TestNGtest.Annotations -->
+      <class name="com.sharepoint.TestNGtest.Parameter">
+        <methods>
+          <include name="done"/>
+        </methods>
+      </class> <!-- com.sharepoint.TestNGtest.Parameter -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
