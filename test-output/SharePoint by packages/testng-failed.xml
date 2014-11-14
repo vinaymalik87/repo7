@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SharePoint by packages]">
+  <test name="com.sharepoint.TestNGtest(failed)">
+    <classes>
+      <class name="com.sharepoint.TestNGtest.Parameter">
+        <methods>
+          <include name="done"/>
+        </methods>
+      </class> <!-- com.sharepoint.TestNGtest.Parameter -->
+      <class name="com.sharepoint.TestNGtest.Annotations">
+        <methods>
+          <include name="happen"/>
+        </methods>
+      </class> <!-- com.sharepoint.TestNGtest.Annotations -->
+    </classes>
+  </test> <!-- com.sharepoint.TestNGtest(failed) -->
+</suite> <!-- Failed suite [SharePoint by packages] -->
