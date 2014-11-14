@@ -5,7 +5,7 @@
     <classes>
       <class name="com.sharepoint.TestNGtest.Annotations">
         <methods>
-          <include name="happen"/>
+          <include name="happen" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.sharepoint.TestNGtest.Annotations -->
     </classes>

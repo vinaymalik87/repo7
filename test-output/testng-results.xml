@@ -1,24 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="1" passed="0">
+<testng-results skipped="0" failed="1" total="5" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="20" started-at="2014-11-14T07:59:36Z" finished-at="2014-11-14T07:59:36Z">
+  <suite name="Default suite" duration-ms="352" started-at="2014-11-14T08:29:00Z" finished-at="2014-11-14T08:29:00Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="20" started-at="2014-11-14T07:59:36Z" finished-at="2014-11-14T07:59:36Z">
+    <test name="Default test" duration-ms="352" started-at="2014-11-14T08:29:00Z" finished-at="2014-11-14T08:29:00Z">
       <class name="com.sharepoint.TestNGtest.Annotations">
-        <test-method status="FAIL" signature="happen(double, double, double, double)[pri:0, instance:com.sharepoint.TestNGtest.Annotations@5e681e45]" name="happen" duration-ms="0" started-at="2014-11-14T13:29:36Z" data-provider="getData" finished-at="2014-11-14T13:29:36Z">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[java.io.FileNotFoundException: src\test\resources\Book1.xls (The system cannot find the file specified)]]>
-            </message>
+        <test-method status="FAIL" signature="happen(double, double, double, double)[pri:0, instance:com.sharepoint.TestNGtest.Annotations@5e681e45]" name="happen" duration-ms="10" started-at="2014-11-14T13:59:00Z" data-provider="getData" finished-at="2014-11-14T13:59:00Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
             <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: java.io.FileNotFoundException: src\test\resources\Book1.xls (The system cannot find the file specified)
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:429)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+              <![CDATA[java.lang.IllegalArgumentException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
 	at org.testng.TestRunner.privateRun(TestRunner.java:767)
@@ -35,25 +49,117 @@
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-Caused by: java.io.FileNotFoundException: src\test\resources\Book1.xls (The system cannot find the file specified)
-	at java.io.FileInputStream.open(Native Method)
-	at java.io.FileInputStream.<init>(Unknown Source)
-	at java.io.FileInputStream.<init>(Unknown Source)
-	at com.sharepoint.TestNGtest.Annotations.getData(Annotations.java:17)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:135)
-	... 20 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- happen -->
+        <test-method status="PASS" signature="happen(double, double, double, double)[pri:0, instance:com.sharepoint.TestNGtest.Annotations@5e681e45]" name="happen" duration-ms="10" started-at="2014-11-14T13:59:00Z" data-provider="getData" finished-at="2014-11-14T13:59:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[20.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- happen -->
+        <test-method status="PASS" signature="happen(double, double, double, double)[pri:0, instance:com.sharepoint.TestNGtest.Annotations@5e681e45]" name="happen" duration-ms="0" started-at="2014-11-14T13:59:00Z" data-provider="getData" finished-at="2014-11-14T13:59:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- happen -->
+        <test-method status="PASS" signature="happen(double, double, double, double)[pri:0, instance:com.sharepoint.TestNGtest.Annotations@5e681e45]" name="happen" duration-ms="0" started-at="2014-11-14T13:59:00Z" data-provider="getData" finished-at="2014-11-14T13:59:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- happen -->
+        <test-method status="PASS" signature="happen(double, double, double, double)[pri:0, instance:com.sharepoint.TestNGtest.Annotations@5e681e45]" name="happen" duration-ms="0" started-at="2014-11-14T13:59:00Z" data-provider="getData" finished-at="2014-11-14T13:59:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[13.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[14.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[15.0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- happen -->
       </class> <!-- com.sharepoint.TestNGtest.Annotations -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
