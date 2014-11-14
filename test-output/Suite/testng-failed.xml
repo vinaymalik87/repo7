@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" parallel="none">
-  <test name="Test(failed)" parallel="none">
+<suite name="Failed suite [Suite]" parallel="classes">
+  <test name="Test(failed)" parallel="classes">
     <classes>
       <class name="com.sharepoint.TestNGtest.Annotations">
         <methods>

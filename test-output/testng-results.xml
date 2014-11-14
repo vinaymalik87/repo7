@@ -1,89 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="1" total="6" passed="4">
+<testng-results skipped="0" failed="1" total="7" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="342" started-at="2014-11-14T09:27:36Z" finished-at="2014-11-14T09:27:36Z">
+  <suite name="testng" duration-ms="7874" started-at="2014-11-14T09:50:31Z" finished-at="2014-11-14T09:50:39Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="342" started-at="2014-11-14T09:27:36Z" finished-at="2014-11-14T09:27:36Z">
-      <class name="com.sharepoint.TestNGtest.Parameter">
-        <test-method status="SKIP" signature="done()[pri:0, instance:com.sharepoint.TestNGtest.Parameter@1b66a538]" name="done" duration-ms="10" started-at="2014-11-14T14:57:36Z" finished-at="2014-11-14T14:57:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- done -->
-        <test-method status="FAIL" signature="LaunchBrowser(java.lang.String)[pri:0, instance:com.sharepoint.TestNGtest.Parameter@1b66a538]" name="LaunchBrowser" is-config="true" duration-ms="0" started-at="2014-11-14T14:57:36Z" finished-at="2014-11-14T14:57:36Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by @Configuration on method LaunchBrowser but has not been marked @Optional or defined
-in D:\eclipselunaworkspace\SharePoint\testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by @Configuration on method LaunchBrowser but has not been marked @Optional or defined
-in D:\eclipselunaworkspace\SharePoint\testng.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchBrowser -->
-        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.sharepoint.TestNGtest.Parameter@1b66a538]" name="teardown" is-config="true" duration-ms="0" started-at="2014-11-14T14:57:36Z" finished-at="2014-11-14T14:57:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.sharepoint.TestNGtest.Parameter -->
+    <test name="Test" duration-ms="310" started-at="2014-11-14T09:50:31Z" finished-at="2014-11-14T09:50:31Z">
       <class name="com.sharepoint.TestNGtest.Annotations">
-        <test-method status="PASS" signature="happen(double, double, double, double)[pri:0, instance:com.sharepoint.TestNGtest.Annotations@eabce30]" name="happen" duration-ms="10" started-at="2014-11-14T14:57:36Z" data-provider="getData" finished-at="2014-11-14T14:57:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[2.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[3.0]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[4.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- happen -->
-        <test-method status="FAIL" signature="happen(double, double, double, double)[pri:0, instance:com.sharepoint.TestNGtest.Annotations@eabce30]" name="happen" duration-ms="0" started-at="2014-11-14T14:57:36Z" data-provider="getData" finished-at="2014-11-14T14:57:36Z">
+        <test-method status="FAIL" signature="happen(double, double, double, double)[pri:0, instance:com.sharepoint.TestNGtest.Annotations@6de8aa5]" name="happen" duration-ms="10" started-at="2014-11-14T15:20:31Z" data-provider="getData" finished-at="2014-11-14T15:20:31Z">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -111,27 +35,42 @@ in D:\eclipselunaworkspace\SharePoint\testng.xml
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.IllegalArgumentException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- happen -->
-        <test-method status="PASS" signature="happen(double, double, double, double)[pri:0, instance:com.sharepoint.TestNGtest.Annotations@eabce30]" name="happen" duration-ms="0" started-at="2014-11-14T14:57:36Z" data-provider="getData" finished-at="2014-11-14T14:57:36Z">
+        <test-method status="PASS" signature="happen(double, double, double, double)[pri:0, instance:com.sharepoint.TestNGtest.Annotations@6de8aa5]" name="happen" duration-ms="0" started-at="2014-11-14T15:20:31Z" data-provider="getData" finished-at="2014-11-14T15:20:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- happen -->
+        <test-method status="PASS" signature="happen(double, double, double, double)[pri:0, instance:com.sharepoint.TestNGtest.Annotations@6de8aa5]" name="happen" duration-ms="10" started-at="2014-11-14T15:20:31Z" data-provider="getData" finished-at="2014-11-14T15:20:31Z">
           <params>
             <param index="0">
               <value>
@@ -157,33 +96,7 @@ in D:\eclipselunaworkspace\SharePoint\testng.xml
           <reporter-output>
           </reporter-output>
         </test-method> <!-- happen -->
-        <test-method status="PASS" signature="happen(double, double, double, double)[pri:0, instance:com.sharepoint.TestNGtest.Annotations@eabce30]" name="happen" duration-ms="0" started-at="2014-11-14T14:57:36Z" data-provider="getData" finished-at="2014-11-14T14:57:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[12.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[13.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[14.0]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[15.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- happen -->
-        <test-method status="PASS" signature="happen(double, double, double, double)[pri:0, instance:com.sharepoint.TestNGtest.Annotations@eabce30]" name="happen" duration-ms="0" started-at="2014-11-14T14:57:36Z" data-provider="getData" finished-at="2014-11-14T14:57:36Z">
+        <test-method status="PASS" signature="happen(double, double, double, double)[pri:0, instance:com.sharepoint.TestNGtest.Annotations@6de8aa5]" name="happen" duration-ms="0" started-at="2014-11-14T15:20:31Z" data-provider="getData" finished-at="2014-11-14T15:20:31Z">
           <params>
             <param index="0">
               <value>
@@ -209,7 +122,79 @@ in D:\eclipselunaworkspace\SharePoint\testng.xml
           <reporter-output>
           </reporter-output>
         </test-method> <!-- happen -->
+        <test-method status="PASS" signature="happen(double, double, double, double)[pri:0, instance:com.sharepoint.TestNGtest.Annotations@6de8aa5]" name="happen" duration-ms="0" started-at="2014-11-14T15:20:31Z" data-provider="getData" finished-at="2014-11-14T15:20:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[13.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[14.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[15.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- happen -->
       </class> <!-- com.sharepoint.TestNGtest.Annotations -->
     </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    <test name="Test1" duration-ms="4263" started-at="2014-11-14T09:50:31Z" finished-at="2014-11-14T09:50:35Z">
+      <class name="com.sharepoint.TestNGtest.Parameter">
+        <test-method status="PASS" signature="LaunchBrowser(java.lang.String)[pri:0, instance:com.sharepoint.TestNGtest.Parameter@48aee668]" name="LaunchBrowser" is-config="true" duration-ms="4162" started-at="2014-11-14T15:20:31Z" finished-at="2014-11-14T15:20:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="done()[pri:0, instance:com.sharepoint.TestNGtest.Parameter@48aee668]" name="done" duration-ms="0" started-at="2014-11-14T15:20:35Z" finished-at="2014-11-14T15:20:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.sharepoint.TestNGtest.Parameter@48aee668]" name="teardown" is-config="true" duration-ms="101" started-at="2014-11-14T15:20:35Z" finished-at="2014-11-14T15:20:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sharepoint.TestNGtest.Parameter -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="3261" started-at="2014-11-14T09:50:35Z" finished-at="2014-11-14T09:50:39Z">
+      <class name="com.sharepoint.TestNGtest.Parameter">
+        <test-method status="PASS" signature="LaunchBrowser(java.lang.String)[pri:0, instance:com.sharepoint.TestNGtest.Parameter@19f70605]" name="LaunchBrowser" is-config="true" duration-ms="2049" started-at="2014-11-14T15:20:35Z" finished-at="2014-11-14T15:20:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="done()[pri:0, instance:com.sharepoint.TestNGtest.Parameter@19f70605]" name="done" duration-ms="1" started-at="2014-11-14T15:20:37Z" finished-at="2014-11-14T15:20:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.sharepoint.TestNGtest.Parameter@19f70605]" name="teardown" is-config="true" duration-ms="1211" started-at="2014-11-14T15:20:37Z" finished-at="2014-11-14T15:20:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sharepoint.TestNGtest.Parameter -->
+    </test> <!-- Test2 -->
+  </suite> <!-- testng -->
 </testng-results>

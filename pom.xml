@@ -14,6 +14,7 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>6.8.1</version>
+			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.poi</groupId>
@@ -46,41 +47,9 @@
 							</suiteXmlFiles>
 						</configuration>
 					</plugin>
-					<plugin>
-						<artifactId>maven-compiler-plugin</artifactId>
-						<version>3.1</version>
-						<configuration>
-							<encoding>iso-8859-1</encoding>
-							<source>1.7</source>
-							<target>1.7</target>
-						</configuration>
-					</plugin>
+
 				</plugins>
 			</build>
 		</profile>
 	</profiles>
-	<reporting>
-		<plugins>
-			<!-- TestNG-xslt related configuration. -->
-			<plugin>
-				<groupId>org.reportyng</groupId>
-				<artifactId>reporty-ng</artifactId>
-				<version>1.2</version>
-				<configuration>
-					<!-- Output directory for the testng xslt report -->
-					<outputdir>/target/testng-xslt-report</outputdir>
-					<surefireReportDirectory>/target/surefire-reports/testng-junit-results</surefireReportDirectory>
-					<sorttestcaselinks>true</sorttestcaselinks>
-					<testdetailsfilter>FAIL,SKIP,PASS,CONF,BY_CLASS</testdetailsfilter>
-					<showruntimetotals>true</showruntimetotals>
-				</configuration>
-			</plugin>
-		</plugins>
-	</reporting>
-	<pluginRepositories>
-		<pluginRepository>
-			<id>reporty-ng</id>
-			<url>https://github.com/vinaymalik87/repo7.git</url>
-		</pluginRepository>
-	</pluginRepositories>
 </project>
